@@ -40,11 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: false,
           routeBasePath: '/',
-        },
-        blog: {
-          showReadingTime: true,
         },
         theme: {
           customCss: './src/css/custom.css',
