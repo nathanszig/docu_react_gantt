@@ -40,8 +40,9 @@ To use the Gantt React Component in your project,
 import it and pass the required data as props and the optional customize props.
 
 ```jsx
-import Gantt from 'free-react-gantt';
 import React from 'react';
+import Gantt from "free-react-gantt";
+import 'free-react-gantt/dist/style.css'
 
 const YourApp = () => {
   return (
@@ -91,30 +92,26 @@ The component expects customize in the following structure:
 ```json
 {
     "todayButton": {
-        "background": {"type": "string"},
-        "color": {"type": "string"},
-        "border": {"type": "string"},
-        "border-radius": {"type": "string"}
+      "background": "#fff",
+      "color": "#000",
+      "border": "1px solid #000",
+      "border-radius": "5px"
+      /** other custom css **/
     },
     "daysContainer": {
-        "background": {"type": "string"},
-        "color": {"type": "string"},
-        "border": {"type": "string"},
-        "border-radius": {"type": "string"}
+      /** your custom css **/
     },
     "weeksContainer": {
-        "background": {"type": "string"},
-        "color": {"type": "string"},
-        "border": {"type": "string"},
-        "border-radius": {"type": "string"}
+      /** your custom css **/
+    },
+    "taskContainer": {
+      /** your custom css **/
+    },
+    "sidebarProjects": {
+      /** your custom css **/
     }
 }
 ```
-
-## Demo
-
-Check out our [online documentation site](https://site.test) for a live demo and
-additional information.
 
 ## Configuration Options
 
