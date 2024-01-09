@@ -63,6 +63,11 @@ const config = {
         },
         items: [
           {
+            to: '/demo',
+            label: 'Exemple',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/nathanszig/react-gantt',
             label: 'GitHub',
             position: 'right',
