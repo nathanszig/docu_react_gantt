@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Gantt from "free-react-gantt/src/components/gantt";
+import Gantt from "free-react-gantt";
 import {fakeData} from "free-react-gantt/src/constants/ganttUtils";
+import 'free-react-gantt/dist/style.css'
 const Demo = () => {
     return (
         <Layout>
