@@ -40,11 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: false,
           routeBasePath: '/',
-        },
-        blog: {
-          showReadingTime: true,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,11 +62,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            to: '/demo',
-            position: 'left',
-            label: 'Démo',
-          },
           {
             href: 'https://github.com/nathanszig/react-gantt',
             label: 'GitHub',
